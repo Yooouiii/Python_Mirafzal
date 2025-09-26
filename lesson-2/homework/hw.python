@@ -1,0 +1,31 @@
+
+name = input("Name: ")
+year = int(input("Year of birth: "))
+print("Age:", 2025 - year)
+
+txt = 'LMaasleitbtui'
+print("Car:", "Lamborghini")
+
+txt = 'MsaatmiazD'
+print("Car:", "Mazda")
+
+txt = "I'am John. I am from London"
+print("Residence:", txt.split("from ")[1])
+
+s = input("String: ")
+print("Reversed:", s[::-1])
+
+s = input("Text: ")
+print("Vowels:", sum(ch.lower() in "aeiou" for ch in s))
+
+nums = list(map(int, input("Numbers: ").split()))
+print("Max:", max(nums))
+
+w = input("Word: ")
+print("Palindrome?", w == w[::-1])
+
+email = input("Email: ")
+print("Domain:", email.split("@")[1])
+
+chars = string.ascii_letters + string.digits + string.punctuation
+print("Password:", ''.join(random.choice(chars) for _ in range(8)))
