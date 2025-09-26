@@ -1,0 +1,15 @@
+s = float(input("Side of square: "))
+print("Perimeter =", 4 * s)
+print("Area =", s * s)
+
+d = float(input("\nDiameter of circle: "))
+print("Length =", 3.14 * d)
+
+a = float(input("\nFirst number a: "))
+b = float(input("Second number b: "))
+print("Mean =", (a + b) / 2)
+
+print("Sum =", a + b)
+print("Product =", a * b)
+print("a^2 =", a ** 2)
+print("b^2 =", b ** 2)
