@@ -1,0 +1,34 @@
+fruits = ["apple", "banana", "mango", "orange", "grape"]
+print(fruits[2])
+
+print([1,2,3] + [4,5,6])
+
+nums = [10,20,30,40,50]
+print([nums[0], nums[len(nums)//2], nums[-1]])
+
+print(tuple(["Inception","Avatar","Titanic","Matrix","Joker"]))
+
+cities = ["London","Paris","New York","Tokyo"]
+print("Paris" in cities)
+
+print([1,2,3] * 2)
+
+nums = [1,2,3,4,5]; nums[0],nums[-1]=nums[-1],nums[0]
+print(nums)
+
+print(tuple(range(1,11))[3:8])
+
+print(["blue","red","blue","green","blue"].count("blue"))
+
+print(("cat","dog","lion","tiger").index("lion"))
+
+print((1,2,3) + (4,5,6))
+
+print(len([1,2,3,4]), len((10,20,30)))
+
+print(list((5,10,15,20,25)))
+
+t = (4,9,1,7,3)
+print(max(t), min(t))
+
+print(("one","two","three","four")[::-1])
